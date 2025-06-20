@@ -11,6 +11,7 @@ int main() {
 
 int sum (int a, int b){
     int out;
-    out = a + b;
+    int c = 5;
+    out = c*(a + b);
     return out;
 }
