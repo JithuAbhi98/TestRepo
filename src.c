@@ -12,6 +12,6 @@ int main() {
 int sum (int a, int b){
     int out;
     int c = 5;
-    out = c*(a + b);
+    out = c*(a + b) + 0.5;
     return out;
 }
